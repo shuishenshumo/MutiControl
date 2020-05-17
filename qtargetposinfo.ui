@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QTargetPosInfo</class>
+ <widget class="QWidget" name="QTargetPosInfo">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>232</width>
+    <height>160</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>QTargetPosInfo</string>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>232</width>
+     <height>160</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QFrame{
+background: rgba(0,0,0,60%);
+border: 2px solid #FF8C00;
+border-radius: 8px;
+}</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>28</x>
+      <y>21</y>
+      <width>112</width>
+      <height>36</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+font-family: &quot;微软雅黑&quot;;
+font-size: 28px;
+color: #FF8C00;
+border: 0px;
+background-color: rgb(0,0,0,0);
+}</string>
+    </property>
+    <property name="text">
+     <string>目标坐标</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_lat">
+    <property name="geometry">
+     <rect>
+      <x>28</x>
+      <y>60</y>
+      <width>170</width>
+      <height>36</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+font-family: Consolas;
+font-size: 28px;
+color: #FFFFFF;
+border: 0px;
+background-color: rgb(0,0,0,0);
+}</string>
+    </property>
+    <property name="text">
+     <string>N32°03’16”</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_lng">
+    <property name="geometry">
+     <rect>
+      <x>28</x>
+      <y>97</y>
+      <width>170</width>
+      <height>36</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+font-family: Consolas;
+font-size: 28px;
+color: #FFFFFF;
+border: 0px;
+background-color: rgb(0,0,0,0);
+}</string>
+    </property>
+    <property name="text">
+     <string>E121°43’56”</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
